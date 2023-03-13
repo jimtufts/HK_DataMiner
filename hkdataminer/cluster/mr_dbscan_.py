@@ -30,7 +30,7 @@ def merge_assignments(new_assignments, old_assignments):
     # clusters_size = len(set(old_assignments)) - (1 if -1 in old_assignments else 0)
     clusters_size = np.max(old_assignments) + 1
     max_clust_id = clusters_size
-    print "max_clust_id:", max_clust_id
+    print("max_clust_id:", max_clust_id)
     count_first = [0] * clusters_size
     count_second = [0] * clusters_size
 
