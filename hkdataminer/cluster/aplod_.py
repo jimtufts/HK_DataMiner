@@ -15,7 +15,7 @@ from sklearn.utils import check_array
 from sklearn.neighbors import NearestNeighbors
 from sklearn.metrics.pairwise import pairwise_distances_argmin
 from sklearn.utils.validation import check_is_fitted
-from metrics.pairwise import pairwise_distances
+from hkdataminer.metrics.pairwise import pairwise_distances
 from functools import reduce
 # ===============================================================================
 # LOCAL IMPORTS:
